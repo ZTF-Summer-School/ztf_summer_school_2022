@@ -78,15 +78,15 @@ After installing anaconda, you should (in a terminal):
   * on linux / windows wsl: conda env create -f environment-ubuntu.yml
 
 Activate the environment with:
-* conda activate ztfsummer
-(if you are running an older version of conda you may need):
+* conda activate ztfsummer  
+(if you are running an older version of conda you may need):  
 * source activate ztfsummer
 and can test by opening the first lecture:
 * cd lectures/01
 * jupyter notebook lecture01.ipynb
 
-Either will, you will need to pip install:
-* pip install git+git://github.com/colcarroll/minimc.git
+Either way, you will need to pip install minimc this can be done using:
+* pip install git+https://github.com/ColCarroll/minimc.git
 
 Otherwise, google colaboratory will work:
 https://colab.research.google.com/
