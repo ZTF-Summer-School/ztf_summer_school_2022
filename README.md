@@ -73,11 +73,13 @@ After installing anaconda, you should (in a terminal):
  
 * clone the repository: git clone git@github.com:mcoughlin/ztf_summer_school_2022.git
 * change directories to the repository: cd ztf_summer_school_2022
-* use conda to create a repository
+* use conda to create an environment
   * on mac osx: conda env create -f environment-osx.yml
   * on linux / windows wsl: conda env create -f environment-ubuntu.yml
 
 Activate the environment with:
+* conda activate ztfsummer
+(if you are running an older version of conda you may need):
 * source activate ztfsummer
 and can test by opening the first lecture:
 * cd lectures/01
