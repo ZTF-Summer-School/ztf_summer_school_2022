@@ -1,1 +1,12 @@
-testing readme
+basic commands for git:
+
+> git init
+> git status
+> touch <filename>
+> git add <filename>
+> git commit -m "commit message"
+> git log
+> git reset --soft HEAD~ 		##remove commit before push
+> git branch panda			##create branch
+> git checkout panda			##move to the said branch
+> git merge panda			##merge commits in the branch to the main
